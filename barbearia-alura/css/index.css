@@ -1,0 +1,53 @@
+main > img{
+    width: 100%;
+    display: block;
+}
+
+.about img {
+    width: 12em;
+    float: left;
+    margin: 3px 20px 20px 0;
+}
+
+.about em strong {
+    color: red
+}
+
+.benefits ul {
+    vertical-align: top;
+    display: inline-block;
+    font-style: italic;
+    line-height: 1.3em;
+    width: 30%;
+    margin: 0 9%;
+}
+
+.benefits li::before{
+    content: "🟊 "
+}
+
+.benefits li:first-child {
+    font-weight: bold;
+}
+
+.benefits img {
+    width: 50%;
+    cursor: pointer;
+    transition: 0.25s;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.4);
+    margin: 0 0 2em 0;
+}
+
+.benefits img:hover {
+    opacity: 0.3;
+}
+
+.location p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.location iframe {
+    margin: 0 0 2em 0;
+}
+
