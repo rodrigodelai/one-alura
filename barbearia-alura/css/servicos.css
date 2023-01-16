@@ -1,0 +1,58 @@
+.services ul {
+    padding: 1em;
+}
+
+.services li {
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 7px;
+    box-shadow: 0.5em 0.5em 0.3em #00000044;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 1.2em;
+    text-align: center;
+    transition: 0.25s;
+    vertical-align: top;
+    width: 30%;
+}
+
+.services li:hover {
+    transform: scale(1.03);
+    border-color: rgb(87, 86, 86);
+}
+
+.services li:active {
+    border-color: rgb(175, 174, 174);
+    opacity: 0.6
+}
+
+.services li:hover h2,
+.services li:hover span {
+    transform: scale(1.1);
+}
+
+.services h2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.services img {
+    width: 100%;
+}
+
+.services p {
+    font-size: 0.95em;
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+.services span {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0.5em 0;
+    transition: 0.2s;
+}
