@@ -59,7 +59,7 @@
 .radio label {
     cursor: pointer;
     display: block;
-    width: 7em;
+    width: 8em;
     line-height: 1.5em;
     font-size: 0.9em;
 }
@@ -114,4 +114,25 @@
     background-color: #00000088;
     font-weight: 600;
     color: white
+}
+
+@media screen and (max-width: 800px) {
+    .contact > table {
+        position: static;
+        margin: 2.2em auto;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .contact > img {
+        display: block;
+        float: none;
+        width: 70%;
+        margin: 1em auto; 
+        align-self: center;
+    }
+
+    .principal > label, .contact [type=submit] {
+        width: 100%;
+    }
 }

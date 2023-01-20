@@ -13,17 +13,21 @@ main > img{
     color: red
 }
 
+.benefits {
+    text-align: center;
+}
+
 .benefits ul {
     vertical-align: top;
     display: inline-block;
     font-style: italic;
     line-height: 1.3em;
-    width: 30%;
-    margin: 0 9%;
+    margin: 0 9% 1.5em 0;
+    text-align: left;
 }
 
 .benefits li::before{
-    content: "🟊 "
+    content: "\1F7CA  "
 }
 
 .benefits li:first-child {
@@ -51,3 +55,14 @@ main > img{
     margin: 0 0 2em 0;
 }
 
+@media screen and (max-width: 620px) {
+    .about > img {
+        width: 33%;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }   
+
+    .benefits img {
+        width: 88%;
+    }
+}

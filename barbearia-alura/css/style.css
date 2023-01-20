@@ -109,3 +109,19 @@ footer p {
 footer a {
     text-decoration: none;
 }
+
+/* ---------- Responsive design ---------- */
+
+@media screen and (max-width: 620px) {
+    header ul {
+        position: absolute;
+        top: 37%;
+        width: 100%;
+    }
+
+    header li {
+        display: block;
+        text-align: right;
+        margin-bottom: 1vh;
+    }
+}
